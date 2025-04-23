@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sample Suite">
+  <test name="testing">
+  	<groups>
+      <run>
+        <exclude name="Smoke Test"/>
+        <include name="Regression"/>
+        <exclude name="Sanity Test"/>       
+      </run>
+    </groups>
+    <classes>
+       <class name="day11.advancetestng.GroupExamples" />
+       <class name="day11.advancetestng.GroupExamples2" />
+    </classes>
+  </test>
+</suite>

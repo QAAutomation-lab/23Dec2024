@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+        <listener class-name="day11.runTimeRetryfailedTc.DemoTransformer"/>
+  </listeners>
+  <test name="Test">
+    <classes>
+      <class name="day10.testngExample2.AnnotationList"/>
+      <class name="day10.testngExample2.GoogleApplicationWithBeforeAfter"/>
+      <class name="day10.testngExample2.Assignment"/>
+      <class name="day10.testngExample2.ExampleWithBeforeAfterSuite"/>
+      <class name="day10.testngExample2.GoogleApplicationWithBeforeAfterMethod"/>
+      <class name="day10.testngExample2.GoogleApplicationWithBeforeAfterTest"/>
+      <class name="day10.testngExample2.ClassLabelAnnotations"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

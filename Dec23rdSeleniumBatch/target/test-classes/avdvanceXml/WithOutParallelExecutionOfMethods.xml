@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel test suite">
+	<test name="Firefox">
+		<parameter name="browser" value="firefox" />
+		<parameter name="username" value="admin" />
+		<parameter name="password" value="Test@123" />
+		<classes>
+			<class name="day9.advancetestng.ParallelExecutionTest" />
+			<class name="day8.testngexamples.OrangeHrmTest"/>
+		</classes>
+	</test>
+	<test name="Chrome">
+		<parameter name="browser" value="chrome" />
+		<parameter name="username" value="admin" />
+		<parameter name="password" value="Test@123" />
+		<classes>
+			<class name="day9.advancetestng.ParallelExecutionTest" />
+			<class name="day8.testngexamples.Example4"/>
+		</classes>
+	</test>
+</suite>
