@@ -38,19 +38,19 @@ public class OrangeHRM_PIM extends SeleniumUtility {
 		//navigate to Orange HRM PIM page
 	}
 	
-	@Test
+	@Test(priority=1)
 	public void testPimCreation() {
 		extentTest=extentReports.startTest("OrangrHRM_PIM_Creation");
 		//Code to create PIM and validate
 	}	
 	
-	@Test
+	@Test(priority=2)
 	public void testPimUpdate() {
 		extentTest=extentReports.startTest("OrangrHRM_PIM_Update");
 		//Code to update PIM and validate
 	}	
 	
-	@Test
+	@Test(priority=3)
 	public void testPimDelete() {
 		extentTest=extentReports.startTest("OrangrHRM_PIM_Delete");
 		//Code to delete PIM and validate

@@ -2,16 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-20T15:55:16 IST" name="Default suite" finished-at="2025-04-20T15:55:17 IST" duration-ms="1160">
+  <suite started-at="2025-04-26T07:45:37 IST" name="Default suite" finished-at="2025-04-26T07:45:49 IST" duration-ms="11824">
     <groups>
     </groups>
-    <test started-at="2025-04-20T15:55:16 IST" name="Default test" finished-at="2025-04-20T15:55:17 IST" duration-ms="1160">
-      <class name="day10.ddt.ExcelOperations">
-        <test-method signature="performOperationOnCell()[pri:0, instance:day10.ddt.ExcelOperations@2d710f1a]" started-at="2025-04-20T15:55:16 IST" name="performOperationOnCell" finished-at="2025-04-20T15:55:17 IST" duration-ms="1065" status="PASS">
+    <test started-at="2025-04-26T07:45:37 IST" name="Default test" finished-at="2025-04-26T07:45:49 IST" duration-ms="11824">
+      <class name="day11.exdentreport.ActitimeLoginValidation">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:day11.exdentreport.ActitimeLoginValidation@2ddc9a9f]" started-at="2025-04-26T07:45:37 IST" name="precondition" finished-at="2025-04-26T07:45:38 IST" duration-ms="413" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- performOperationOnCell -->
-      </class> <!-- day10.ddt.ExcelOperations -->
+        </test-method> <!-- precondition -->
+        <test-method signature="testActitimeLogin()[pri:0, instance:day11.exdentreport.ActitimeLoginValidation@2ddc9a9f]" started-at="2025-04-26T07:45:38 IST" name="testActitimeLogin" finished-at="2025-04-26T07:45:48 IST" duration-ms="10147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testActitimeLogin -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:day11.exdentreport.ActitimeLoginValidation@2ddc9a9f]" started-at="2025-04-26T07:45:48 IST" name="postcondition" finished-at="2025-04-26T07:45:49 IST" duration-ms="1171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- day11.exdentreport.ActitimeLoginValidation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

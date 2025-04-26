@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel test suite" parallel="tests" thread-count="2">
+	<test name="Firefox">
+		<parameter name="browser" value="firefox" />
+		<parameter name="username" value="admin" />
+		<parameter name="password" value="Test@123" />
+		<classes>
+			<class name="day11.advancetestng.ParallelExecutionTest" />
+			<class name="day11.testngExample2.GoogleApplicationWithBeforeAfter"/>
+		</classes>
+	</test>
+	<test name="Chrome">
+		<parameter name="browser" value="chrome" />
+		<parameter name="username" value="admin" />
+		<parameter name="password" value="Test@123" />
+		<classes>
+			<class name="day11.advancetestng.ParallelExecutionTest" />
+			<class name="day11.testngExample2.GoogleApplicationWithBeforeAfter"/>
+		</classes>
+	</test>
+	<test name="Edge">
+		<parameter name="browser" value="chrome" />
+		<parameter name="username" value="admin" />
+		<parameter name="password" value="Test@123" />
+		<classes>
+			<class name="day11.advancetestng.ParallelExecutionTest" />
+			<class name="day11.testngExample2.GoogleApplicationWithBeforeAfter"/>
+		</classes>
+	</test>
+</suite>

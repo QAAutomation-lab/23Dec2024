@@ -1,5 +1,12 @@
 package day11.exdentreport;
 
+import java.io.File;
+import java.io.IOException;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -25,7 +32,7 @@ public class ActitimeLoginValidation extends SeleniumUtility {
 	
 	@Test
 	public void testActitimeLogin() {
-		setUp("chrome", "https://online.actitime.com/uts/login.do");
+		setUp("chrome", "https://online.actitime.com/dec23/login.do");
 		String expectedTitle="actiTIME - Login";
 		String actualTitle=getCurrentTitleOfApplication();
 		result=actualTitle.equals(expectedTitle);
@@ -36,11 +43,23 @@ public class ActitimeLoginValidation extends SeleniumUtility {
 	public void postcondition() {
 		
 		if(result) {
-			extentTest.log(LogStatus.PASS, "Login validation is successfull");
+			extentTest.log(LogStatus.PASS, extentTest.addScreenCapture(screenShot(driver)), "Login validation is successfull");
 		}else {
-			extentTest.log(LogStatus.FAIL, "Login validation is not successfull");
+			extentTest.log(LogStatus.FAIL, extentTest.addScreenCapture(screenShot(driver)), "Login validation is not successfull");
 		}		
 		extentReports.endTest(extentTest);
 		extentReports.flush();
 	}
+	public static String screenShot(WebDriver driver) {
+		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		File Dest = new File("src/../BStackImages/" + System.currentTimeMillis()+ ".png");
+		String errflpath = Dest.getAbsolutePath();
+		try {
+			FileUtils.copyFile(scrFile, Dest);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return errflpath;
+		}
 }

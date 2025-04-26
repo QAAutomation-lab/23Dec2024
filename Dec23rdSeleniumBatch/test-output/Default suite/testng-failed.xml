@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="day11.testngExample2.GoogleApplicationWithBeforeAfterTest">
+      <class name="day11.exdentreport.ExtentReportDemo">
         <methods>
-          <include name="testSearch"/>
-          <include name="tearDown"/>
-          <include name="startUp"/>
+          <include name="startReport"/>
+          <include name="endReport"/>
+          <include name="getResult"/>
+          <include name="skipTest"/>
+          <include name="testCase2"/>
         </methods>
-      </class> <!-- day11.testngExample2.GoogleApplicationWithBeforeAfterTest -->
+      </class> <!-- day11.exdentreport.ExtentReportDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
