@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="day11.exdentreport.ExtentReportDemo">
+      <class name="orangeHrmTestScripts.OrangeHrmLoginLogout">
         <methods>
-          <include name="startReport"/>
-          <include name="endReport"/>
-          <include name="getResult"/>
-          <include name="skipTest"/>
-          <include name="testCase2"/>
+          <include name="postCondition"/>
+          <include name="testLoginLougoutOfOrangeHrm"/>
+          <include name="precondition"/>
         </methods>
-      </class> <!-- day11.exdentreport.ExtentReportDemo -->
+      </class> <!-- orangeHrmTestScripts.OrangeHrmLoginLogout -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

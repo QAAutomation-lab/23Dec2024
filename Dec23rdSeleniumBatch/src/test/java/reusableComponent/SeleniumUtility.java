@@ -275,4 +275,8 @@ public class SeleniumUtility {
 	 * copy and paste
 	 * Tab button
 	 */
+	
+	public WebElement getActitveElement() {
+		return driver.switchTo().activeElement();
+	}
 }

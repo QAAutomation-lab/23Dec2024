@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-26T07:45:37 IST" name="Default suite" finished-at="2025-04-26T07:45:49 IST" duration-ms="11824">
+  <suite started-at="2025-04-27T08:30:33 IST" name="Default suite" finished-at="2025-04-27T08:30:52 IST" duration-ms="18502">
     <groups>
     </groups>
-    <test started-at="2025-04-26T07:45:37 IST" name="Default test" finished-at="2025-04-26T07:45:49 IST" duration-ms="11824">
-      <class name="day11.exdentreport.ActitimeLoginValidation">
-        <test-method is-config="true" signature="precondition()[pri:0, instance:day11.exdentreport.ActitimeLoginValidation@2ddc9a9f]" started-at="2025-04-26T07:45:37 IST" name="precondition" finished-at="2025-04-26T07:45:38 IST" duration-ms="413" status="PASS">
+    <test started-at="2025-04-27T08:30:33 IST" name="Default test" finished-at="2025-04-27T08:30:52 IST" duration-ms="18502">
+      <class name="orangeHrmTestScripts.OrangeHrmLoginLogout">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:orangeHrmTestScripts.OrangeHrmLoginLogout@121314f7]" started-at="2025-04-27T08:30:33 IST" name="precondition" finished-at="2025-04-27T08:30:40 IST" duration-ms="6987" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="testActitimeLogin()[pri:0, instance:day11.exdentreport.ActitimeLoginValidation@2ddc9a9f]" started-at="2025-04-26T07:45:38 IST" name="testActitimeLogin" finished-at="2025-04-26T07:45:48 IST" duration-ms="10147" status="PASS">
+        <test-method signature="testLoginPage()[pri:1, instance:orangeHrmTestScripts.OrangeHrmLoginLogout@121314f7]" started-at="2025-04-27T08:30:40 IST" name="testLoginPage" finished-at="2025-04-27T08:30:40 IST" duration-ms="46" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testActitimeLogin -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:day11.exdentreport.ActitimeLoginValidation@2ddc9a9f]" started-at="2025-04-26T07:45:48 IST" name="postcondition" finished-at="2025-04-26T07:45:49 IST" duration-ms="1171" status="PASS">
+        </test-method> <!-- testLoginPage -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:orangeHrmTestScripts.OrangeHrmLoginLogout@121314f7]" started-at="2025-04-27T08:30:40 IST" name="postCondition" finished-at="2025-04-27T08:30:41 IST" duration-ms="265" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postcondition -->
-      </class> <!-- day11.exdentreport.ActitimeLoginValidation -->
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:orangeHrmTestScripts.OrangeHrmLoginLogout@121314f7]" started-at="2025-04-27T08:30:41 IST" name="precondition" finished-at="2025-04-27T08:30:47 IST" duration-ms="5922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="testLoginLougoutOfOrangeHrm()[pri:2, instance:orangeHrmTestScripts.OrangeHrmLoginLogout@121314f7]" started-at="2025-04-27T08:30:47 IST" name="testLoginLougoutOfOrangeHrm" finished-at="2025-04-27T08:30:51 IST" duration-ms="4831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginLougoutOfOrangeHrm -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:orangeHrmTestScripts.OrangeHrmLoginLogout@121314f7]" started-at="2025-04-27T08:30:52 IST" name="postCondition" finished-at="2025-04-27T08:30:52 IST" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- orangeHrmTestScripts.OrangeHrmLoginLogout -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
