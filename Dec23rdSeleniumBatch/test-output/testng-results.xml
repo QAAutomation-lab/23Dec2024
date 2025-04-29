@@ -1,57 +1,368 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results retried="2" ignored="2" total="12" passed="5" failed="1" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-29T07:13:33 IST" name="Default suite" finished-at="2025-04-29T07:14:28 IST" duration-ms="54694">
+  <suite started-at="2025-04-29T07:33:58 IST" name="Suite" finished-at="2025-04-29T07:35:10 IST" duration-ms="72828">
     <groups>
     </groups>
-    <test started-at="2025-04-29T07:13:33 IST" name="Default test" finished-at="2025-04-29T07:14:28 IST" duration-ms="54694">
+    <test started-at="2025-04-29T07:33:58 IST" name="Test" finished-at="2025-04-29T07:35:10 IST" duration-ms="72828">
+      <class name="orangeHrmTestScripts.OrangeHrmLoginLogout">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:orangeHrmTestScripts.OrangeHrmLoginLogout@7b36aa0c]" started-at="2025-04-29T07:34:12 IST" name="precondition" finished-at="2025-04-29T07:34:16 IST" duration-ms="3821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="testLoginPage()[pri:1, instance:orangeHrmTestScripts.OrangeHrmLoginLogout@7b36aa0c]" started-at="2025-04-29T07:34:16 IST" name="testLoginPage" finished-at="2025-04-29T07:34:18 IST" duration-ms="2320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:orangeHrmTestScripts.OrangeHrmLoginLogout@7b36aa0c]" started-at="2025-04-29T07:34:18 IST" name="postCondition" finished-at="2025-04-29T07:34:19 IST" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:orangeHrmTestScripts.OrangeHrmLoginLogout@7b36aa0c]" started-at="2025-04-29T07:34:19 IST" name="precondition" finished-at="2025-04-29T07:34:24 IST" duration-ms="5682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="testLoginLougoutOfOrangeHrm()[pri:2, instance:orangeHrmTestScripts.OrangeHrmLoginLogout@7b36aa0c]" started-at="2025-04-29T07:34:24 IST" name="testLoginLougoutOfOrangeHrm" finished-at="2025-04-29T07:34:30 IST" duration-ms="5817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginLougoutOfOrangeHrm -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:orangeHrmTestScripts.OrangeHrmLoginLogout@7b36aa0c]" started-at="2025-04-29T07:34:30 IST" name="postCondition" finished-at="2025-04-29T07:34:30 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- orangeHrmTestScripts.OrangeHrmLoginLogout -->
       <class name="orangeHrmTestScripts.TestPIM">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:orangeHrmTestScripts.TestPIM@7526515b]" started-at="2025-04-29T07:13:34 IST" name="openBrowser" finished-at="2025-04-29T07:13:44 IST" duration-ms="10159" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:orangeHrmTestScripts.TestPIM@8f2ef19]" started-at="2025-04-29T07:34:06 IST" name="openBrowser" finished-at="2025-04-29T07:34:12 IST" duration-ms="5808" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:orangeHrmTestScripts.TestPIM@7526515b]" started-at="2025-04-29T07:13:44 IST" name="precondition" finished-at="2025-04-29T07:13:48 IST" duration-ms="4026" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:orangeHrmTestScripts.TestPIM@8f2ef19]" started-at="2025-04-29T07:34:30 IST" name="precondition" finished-at="2025-04-29T07:34:34 IST" duration-ms="3650" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="testPIM_Creation()[pri:1, instance:orangeHrmTestScripts.TestPIM@7526515b]" started-at="2025-04-29T07:13:48 IST" name="testPIM_Creation" finished-at="2025-04-29T07:14:04 IST" duration-ms="16314" status="PASS">
+        <test-method retried="true" signature="testPIM_Creation()[pri:1, instance:orangeHrmTestScripts.TestPIM@8f2ef19]" started-at="2025-04-29T07:34:34 IST" name="testPIM_Creation" finished-at="2025-04-29T07:34:38 IST" duration-ms="4290" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, getActiveElement {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53676}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53676/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, getActiveElement {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53676}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53676/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.activeElement(RemoteWebDriver.java:1162)
+at reusableComponent.SeleniumUtility.getActitveElement(SeleniumUtility.java:280)
+at orangehrmwebpages.AddEmployeePage.createEmployee(AddEmployeePage.java:35)
+at orangeHrmTestScripts.TestPIM.testPIM_Creation(TestPIM.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPIM_Creation -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:orangeHrmTestScripts.TestPIM@7526515b]" started-at="2025-04-29T07:14:04 IST" name="postcondition" finished-at="2025-04-29T07:14:06 IST" duration-ms="1592" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:orangeHrmTestScripts.TestPIM@8f2ef19]" started-at="2025-04-29T07:34:38 IST" name="postcondition" finished-at="2025-04-29T07:34:40 IST" duration-ms="1671" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:orangeHrmTestScripts.TestPIM@7526515b]" started-at="2025-04-29T07:14:06 IST" name="precondition" finished-at="2025-04-29T07:14:09 IST" duration-ms="3361" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:orangeHrmTestScripts.TestPIM@8f2ef19]" started-at="2025-04-29T07:34:40 IST" name="precondition" finished-at="2025-04-29T07:34:43 IST" duration-ms="3261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="testPIM_Update()[pri:2, instance:orangeHrmTestScripts.TestPIM@7526515b]" started-at="2025-04-29T07:14:09 IST" name="testPIM_Update" finished-at="2025-04-29T07:14:09 IST" depends-on-methods="orangeHrmTestScripts.TestPIM.testPIM_Creation" duration-ms="2" status="PASS">
+        <test-method retried="true" signature="testPIM_Creation()[pri:1, instance:orangeHrmTestScripts.TestPIM@8f2ef19]" started-at="2025-04-29T07:34:43 IST" name="testPIM_Creation" finished-at="2025-04-29T07:34:47 IST" duration-ms="3686" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, getActiveElement {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53676}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53676/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, getActiveElement {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53676}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53676/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.activeElement(RemoteWebDriver.java:1162)
+at reusableComponent.SeleniumUtility.getActitveElement(SeleniumUtility.java:280)
+at orangehrmwebpages.AddEmployeePage.createEmployee(AddEmployeePage.java:35)
+at orangeHrmTestScripts.TestPIM.testPIM_Creation(TestPIM.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPIM_Creation -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:orangeHrmTestScripts.TestPIM@8f2ef19]" started-at="2025-04-29T07:34:47 IST" name="postcondition" finished-at="2025-04-29T07:34:48 IST" duration-ms="1468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:orangeHrmTestScripts.TestPIM@8f2ef19]" started-at="2025-04-29T07:34:48 IST" name="precondition" finished-at="2025-04-29T07:34:52 IST" duration-ms="3249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="testPIM_Creation()[pri:1, instance:orangeHrmTestScripts.TestPIM@8f2ef19]" started-at="2025-04-29T07:34:52 IST" name="testPIM_Creation" finished-at="2025-04-29T07:34:56 IST" duration-ms="3981" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, getActiveElement {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53676}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53676/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, getActiveElement {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53676}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53676/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.activeElement(RemoteWebDriver.java:1162)
+at reusableComponent.SeleniumUtility.getActitveElement(SeleniumUtility.java:280)
+at orangehrmwebpages.AddEmployeePage.createEmployee(AddEmployeePage.java:35)
+at orangeHrmTestScripts.TestPIM.testPIM_Creation(TestPIM.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPIM_Creation -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:orangeHrmTestScripts.TestPIM@8f2ef19]" started-at="2025-04-29T07:34:56 IST" name="postcondition" finished-at="2025-04-29T07:34:57 IST" duration-ms="1089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method signature="testPIM_Update()[pri:2, instance:orangeHrmTestScripts.TestPIM@8f2ef19]" started-at="2025-04-29T07:34:57 IST" name="testPIM_Update" finished-at="2025-04-29T07:34:57 IST" depends-on-methods="orangeHrmTestScripts.TestPIM.testPIM_Creation" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method orangeHrmTestScripts.TestPIM.testPIM_Update() on instance orangeHrmTestScripts.TestPIM@8f2ef19 depends on not successfully finished methods 
+[orangeHrmTestScripts.TestPIM.testPIM_Creation() on instance orangeHrmTestScripts.TestPIM@8f2ef19]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method orangeHrmTestScripts.TestPIM.testPIM_Update() on instance orangeHrmTestScripts.TestPIM@8f2ef19 depends on not successfully finished methods 
+[orangeHrmTestScripts.TestPIM.testPIM_Creation() on instance orangeHrmTestScripts.TestPIM@8f2ef19]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPIM_Update -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:orangeHrmTestScripts.TestPIM@7526515b]" started-at="2025-04-29T07:14:09 IST" name="postcondition" finished-at="2025-04-29T07:14:11 IST" duration-ms="1657" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:orangeHrmTestScripts.TestPIM@7526515b]" started-at="2025-04-29T07:14:11 IST" name="precondition" finished-at="2025-04-29T07:14:14 IST" duration-ms="3154" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- precondition -->
-        <test-method signature="testPIM_Delete()[pri:3, instance:orangeHrmTestScripts.TestPIM@7526515b]" started-at="2025-04-29T07:14:14 IST" name="testPIM_Delete" finished-at="2025-04-29T07:14:26 IST" depends-on-methods="orangeHrmTestScripts.TestPIM.testPIM_Creation" duration-ms="12524" status="PASS">
+        <test-method signature="testPIM_Delete()[pri:3, instance:orangeHrmTestScripts.TestPIM@8f2ef19]" started-at="2025-04-29T07:34:57 IST" name="testPIM_Delete" finished-at="2025-04-29T07:34:57 IST" depends-on-methods="orangeHrmTestScripts.TestPIM.testPIM_Creation" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method orangeHrmTestScripts.TestPIM.testPIM_Delete() on instance orangeHrmTestScripts.TestPIM@8f2ef19 depends on not successfully finished methods 
+[orangeHrmTestScripts.TestPIM.testPIM_Creation() on instance orangeHrmTestScripts.TestPIM@8f2ef19]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method orangeHrmTestScripts.TestPIM.testPIM_Delete() on instance orangeHrmTestScripts.TestPIM@8f2ef19 depends on not successfully finished methods 
+[orangeHrmTestScripts.TestPIM.testPIM_Creation() on instance orangeHrmTestScripts.TestPIM@8f2ef19]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPIM_Delete -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:orangeHrmTestScripts.TestPIM@7526515b]" started-at="2025-04-29T07:14:26 IST" name="postcondition" finished-at="2025-04-29T07:14:28 IST" duration-ms="1269" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:orangeHrmTestScripts.TestPIM@7526515b]" started-at="2025-04-29T07:14:28 IST" name="closeBrowser" finished-at="2025-04-29T07:14:28 IST" duration-ms="512" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:orangeHrmTestScripts.TestPIM@8f2ef19]" started-at="2025-04-29T07:35:10 IST" name="closeBrowser" finished-at="2025-04-29T07:35:10 IST" duration-ms="498" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- orangeHrmTestScripts.TestPIM -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="orangeHrmTestScripts.TestOrangeHrmPIM">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:orangeHrmTestScripts.TestOrangeHrmPIM@470734c3]" started-at="2025-04-29T07:33:58 IST" name="openBrowser" finished-at="2025-04-29T07:34:06 IST" duration-ms="8465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="loginIntoOrangeHrm()[pri:0, instance:orangeHrmTestScripts.TestOrangeHrmPIM@470734c3]" started-at="2025-04-29T07:34:57 IST" name="loginIntoOrangeHrm" finished-at="2025-04-29T07:34:59 IST" duration-ms="2140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIntoOrangeHrm -->
+        <test-method signature="testPimCreation()[pri:1, instance:orangeHrmTestScripts.TestOrangeHrmPIM@470734c3]" started-at="2025-04-29T07:34:59 IST" name="testPimCreation" finished-at="2025-04-29T07:34:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPimCreation -->
+        <test-method is-config="true" signature="logoutFromOrangeHrm()[pri:0, instance:orangeHrmTestScripts.TestOrangeHrmPIM@470734c3]" started-at="2025-04-29T07:34:59 IST" name="logoutFromOrangeHrm" finished-at="2025-04-29T07:35:01 IST" duration-ms="1909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromOrangeHrm -->
+        <test-method is-config="true" signature="loginIntoOrangeHrm()[pri:0, instance:orangeHrmTestScripts.TestOrangeHrmPIM@470734c3]" started-at="2025-04-29T07:35:01 IST" name="loginIntoOrangeHrm" finished-at="2025-04-29T07:35:02 IST" duration-ms="769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIntoOrangeHrm -->
+        <test-method signature="testPimUpdate()[pri:2, instance:orangeHrmTestScripts.TestOrangeHrmPIM@470734c3]" started-at="2025-04-29T07:35:02 IST" name="testPimUpdate" finished-at="2025-04-29T07:35:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPimUpdate -->
+        <test-method is-config="true" signature="logoutFromOrangeHrm()[pri:0, instance:orangeHrmTestScripts.TestOrangeHrmPIM@470734c3]" started-at="2025-04-29T07:35:02 IST" name="logoutFromOrangeHrm" finished-at="2025-04-29T07:35:05 IST" duration-ms="3487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromOrangeHrm -->
+        <test-method is-config="true" signature="loginIntoOrangeHrm()[pri:0, instance:orangeHrmTestScripts.TestOrangeHrmPIM@470734c3]" started-at="2025-04-29T07:35:05 IST" name="loginIntoOrangeHrm" finished-at="2025-04-29T07:35:07 IST" duration-ms="1954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIntoOrangeHrm -->
+        <test-method signature="testPimDelete()[pri:3, instance:orangeHrmTestScripts.TestOrangeHrmPIM@470734c3]" started-at="2025-04-29T07:35:07 IST" name="testPimDelete" finished-at="2025-04-29T07:35:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPimDelete -->
+        <test-method is-config="true" signature="logoutFromOrangeHrm()[pri:0, instance:orangeHrmTestScripts.TestOrangeHrmPIM@470734c3]" started-at="2025-04-29T07:35:07 IST" name="logoutFromOrangeHrm" finished-at="2025-04-29T07:35:09 IST" duration-ms="2109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromOrangeHrm -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:orangeHrmTestScripts.TestOrangeHrmPIM@470734c3]" started-at="2025-04-29T07:35:09 IST" name="closeBrowser" finished-at="2025-04-29T07:35:10 IST" duration-ms="701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- orangeHrmTestScripts.TestOrangeHrmPIM -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

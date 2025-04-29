@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="19" failures="2" name="TestSuite" time="29.764" errors="0" skipped="1">
+  <properties>
+    <property name="jansi.mode" value="strip"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.3+7"/>
+    <property name="sun.boot.library.path" value="F:\AutomationSession\Softwares\eclipse-java-2022-06-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416\jre\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="F:\Workplaces\SeleniumBasic_Workspace\Dec23rdSeleniumBatch"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="F:\Workplaces\SeleniumBasic_Workspace\Dec23rdSeleniumBatch"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="17.0.3+7"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Asus\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="F:\Workplaces\SeleniumBasic_Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5357131468442276812.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="F:\AutomationSession\Softwares\eclipse-java-2022-06-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:/AutomationSession/Softwares/eclipse-java-2022-06-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;F:/AutomationSession/Softwares/eclipse-java-2022-06-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Python39\Scripts\;C:\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;%MAVEN_HOME%\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17.0.4.1\bin;C:\Program Files\nodejs\;%ANDROID_HOME%\platform-tools;%ANDROID_HOME%\tools;%ANDROID_HOME%\tools\bin;C:\Users\Asus\AppData\Local\Android\Sdk\platform-tools;C:\apache-maven-3.9.6\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Asus\AppData\Local\Microsoft\WindowsApps;C:\Users\Asus\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Asus\AppData\Local\GitHubDesktop\bin;C:\Users\Asus\AppData\Roaming\npm;F:\AutomationSession\Softwares\eclipse-java-2022-06-R-win32-x86_64\eclipse;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Asus"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="Asus"/>
+    <property name="java.class.path" value="F:\AutomationSession\Softwares\eclipse-java-2022-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.18.3.20220227-1319\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean test"/>
+    <property name="java.home" value="F:\AutomationSession\Softwares\eclipse-java-2022-06-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416\jre"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="17.0.3"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="maven.home" value="F:\Workplaces\SeleniumBasic_Workspace\Dec23rdSeleniumBatch\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-04-19"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Temurin-17.0.3+7"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="day11.testngExample2.Example3" name="testLoginOrangeHrm" time="1.036"/>
+  <testcase classname="day11.testngExample2.Example3" name="testPIMUpdateOrangeHrm" time="0.011"/>
+  <testcase classname="day11.testngExample2.Example3" name="testPIMDeleteOrangeHrm" time="0.001"/>
+  <testcase classname="day11.testngExample2.Example3" name="testLogoutOrangeHrm" time="0"/>
+  <testcase classname="day11.testngExample2.Example4" name="testLoginOrangeHrm" time="0"/>
+  <testcase classname="day11.testngExample2.Example4" name="testPIMCreationOrangeHrm" time="0.006">
+    <failure message="/ by zero" type="java.lang.ArithmeticException">java.lang.ArithmeticException: / by zero
+	at day11.testngExample2.Example4.testPIMCreationOrangeHrm(Example4.java:13)
+</failure>
+    <system-out>Hello PIMCreation
+</system-out>
+  </testcase>
+  <testcase classname="day11.testngExample2.Example4" name="testPIMDeleteOrangeHrm" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="day11.testngExample2.Example4" name="testLogoutOrangeHrm" time="0.001"/>
+  <testcase classname="day11.testngExample2.Example02" name="TC2" time="0.001"/>
+  <testcase classname="day11.testngExample2.Example02" name="TC3" time="0.002"/>
+  <testcase classname="day11.testngExample2.Example5" name="testActitime" time="0"/>
+  <testcase classname="day11.testngExample2.Example5" name="testOrangeHrm" time="0.001"/>
+  <testcase classname="day11.testngExample2.OrangeHrmTest" name="testLoginWithAssert1" time="11.419">
+    <failure message="Either application url got changed or login failed expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Either application url got changed or login failed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at day11.testngExample2.OrangeHrmTest.testLoginWithAssert1(OrangeHrmTest.java:34)
+</failure>
+    <system-out>@@@@@@@@@@@@@@@ AfterMethod @@@@@@@@@@@@@@@@@@@@
+#################AfterClass#######################
+</system-out>
+    <system-err>Apr 29, 2025 7:39:24 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 135
+Apr 29, 2025 7:39:25 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 135.0.7049.115. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you&apos;re using and the version number of the artifact is the same as Selenium&apos;s.
+</system-err>
+  </testcase>
+  <testcase classname="day11.testngExample2.OrangeHrmTest" name="testLoginWithAssert2" time="8.744"/>
+  <testcase classname="day11.testngExample2.OrangeHrmTest" name="testLoginWithAssert3" time="8.539"/>
+  <testcase classname="day11.testngExample2.Example1" name="TC1" time="0.001"/>
+  <testcase classname="day11.testngExample2.Example2" name="TC1" time="0"/>
+  <testcase classname="day11.testngExample2.Example2" name="TC2" time="0.001"/>
+  <testcase classname="day11.testngExample2.Example2" name="TC3" time="0.001"/>
+</testsuite>

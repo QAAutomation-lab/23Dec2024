@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 33.403 sec <<< FAILURE!
+testPIMCreationOrangeHrm(day11.testngExample2.Example4)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.ArithmeticException: / by zero
+	at day11.testngExample2.Example4.testPIMCreationOrangeHrm(Example4.java:13)
+
+testLoginWithAssert1(day11.testngExample2.OrangeHrmTest)  Time elapsed: 11.419 sec  <<< FAILURE!
+java.lang.AssertionError: Either application url got changed or login failed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at day11.testngExample2.OrangeHrmTest.testLoginWithAssert1(OrangeHrmTest.java:34)
+

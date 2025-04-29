@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="19" passed="16" failed="2" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-29T07:39:18 IST" name="Suite" finished-at="2025-04-29T07:39:48 IST" duration-ms="29998">
+    <groups>
+    </groups>
+    <test started-at="2025-04-29T07:39:18 IST" name="Test" finished-at="2025-04-29T07:39:48 IST" duration-ms="29998">
+      <class name="day11.testngExample2.OrangeHrmTest">
+        <test-method is-config="true" signature="beforeSuiteTest()[pri:0, instance:day11.testngExample2.OrangeHrmTest@247d8ae]" started-at="2025-04-29T07:39:18 IST" name="beforeSuiteTest" finished-at="2025-04-29T07:39:18 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteTest -->
+        <test-method signature="testLoginWithAssert1()[pri:2, instance:day11.testngExample2.OrangeHrmTest@247d8ae]" started-at="2025-04-29T07:39:19 IST" name="testLoginWithAssert1" finished-at="2025-04-29T07:39:31 IST" duration-ms="11419" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Either application url got changed or login failed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Either application url got changed or login failed expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at day11.testngExample2.OrangeHrmTest.testLoginWithAssert1(OrangeHrmTest.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithAssert1 -->
+        <test-method signature="testLoginWithAssert2()[pri:3, instance:day11.testngExample2.OrangeHrmTest@247d8ae]" started-at="2025-04-29T07:39:31 IST" name="testLoginWithAssert2" finished-at="2025-04-29T07:39:40 IST" duration-ms="8745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithAssert2 -->
+        <test-method signature="testLoginWithAssert3()[pri:4, instance:day11.testngExample2.OrangeHrmTest@247d8ae]" started-at="2025-04-29T07:39:40 IST" name="testLoginWithAssert3" finished-at="2025-04-29T07:39:48 IST" duration-ms="8538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithAssert3 -->
+        <test-method is-config="true" signature="afterSuiteTest()[pri:0, instance:day11.testngExample2.OrangeHrmTest@247d8ae]" started-at="2025-04-29T07:39:48 IST" name="afterSuiteTest" finished-at="2025-04-29T07:39:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteTest -->
+      </class> <!-- day11.testngExample2.OrangeHrmTest -->
+      <class name="day11.testngExample2.Example5">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:day11.testngExample2.Example5@22e357dc]" started-at="2025-04-29T07:39:18 IST" name="beforeTest" finished-at="2025-04-29T07:39:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:day11.testngExample2.Example5@22e357dc]" started-at="2025-04-29T07:39:19 IST" name="beforeClass" finished-at="2025-04-29T07:39:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:day11.testngExample2.Example5@22e357dc]" started-at="2025-04-29T07:39:19 IST" name="beforeMethod" finished-at="2025-04-29T07:39:19 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testActitime()[pri:0, instance:day11.testngExample2.Example5@22e357dc]" started-at="2025-04-29T07:39:19 IST" name="testActitime" finished-at="2025-04-29T07:39:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testActitime -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:day11.testngExample2.Example5@22e357dc]" started-at="2025-04-29T07:39:19 IST" name="afterMethod" finished-at="2025-04-29T07:39:19 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:day11.testngExample2.Example5@22e357dc]" started-at="2025-04-29T07:39:19 IST" name="beforeMethod" finished-at="2025-04-29T07:39:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testOrangeHrm()[pri:0, instance:day11.testngExample2.Example5@22e357dc]" started-at="2025-04-29T07:39:19 IST" name="testOrangeHrm" finished-at="2025-04-29T07:39:19 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOrangeHrm -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:day11.testngExample2.Example5@22e357dc]" started-at="2025-04-29T07:39:19 IST" name="afterMethod" finished-at="2025-04-29T07:39:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:day11.testngExample2.Example5@22e357dc]" started-at="2025-04-29T07:39:19 IST" name="afterClass" finished-at="2025-04-29T07:39:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:day11.testngExample2.Example5@22e357dc]" started-at="2025-04-29T07:39:48 IST" name="afterTest" finished-at="2025-04-29T07:39:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- day11.testngExample2.Example5 -->
+      <class name="day11.testngExample2.Example3">
+        <test-method signature="testLoginOrangeHrm()[pri:1, instance:day11.testngExample2.Example3@770d3326]" started-at="2025-04-29T07:39:18 IST" name="testLoginOrangeHrm" description="Used already have valid test data for login" finished-at="2025-04-29T07:39:19 IST" duration-ms="1028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginOrangeHrm -->
+        <test-method signature="testPIMUpdateOrangeHrm()[pri:3, instance:day11.testngExample2.Example3@770d3326]" started-at="2025-04-29T07:39:19 IST" name="testPIMUpdateOrangeHrm" finished-at="2025-04-29T07:39:19 IST" duration-ms="1" status="PASS">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at day11.testngExample2.Example3.testPIMUpdateOrangeHrm(Example3.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPIMUpdateOrangeHrm -->
+        <test-method signature="testPIMDeleteOrangeHrm()[pri:4, instance:day11.testngExample2.Example3@770d3326]" started-at="2025-04-29T07:39:19 IST" name="testPIMDeleteOrangeHrm" finished-at="2025-04-29T07:39:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPIMDeleteOrangeHrm -->
+        <test-method signature="testLogoutOrangeHrm()[pri:5, instance:day11.testngExample2.Example3@770d3326]" started-at="2025-04-29T07:39:19 IST" name="testLogoutOrangeHrm" finished-at="2025-04-29T07:39:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutOrangeHrm -->
+      </class> <!-- day11.testngExample2.Example3 -->
+      <class name="day11.testngExample2.Example02">
+        <test-method signature="TC2()[pri:0, instance:day11.testngExample2.Example02@74455848]" started-at="2025-04-29T07:39:19 IST" name="TC2" finished-at="2025-04-29T07:39:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2 -->
+        <test-method signature="TC3()[pri:0, instance:day11.testngExample2.Example02@74455848]" started-at="2025-04-29T07:39:19 IST" name="TC3" finished-at="2025-04-29T07:39:19 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3 -->
+      </class> <!-- day11.testngExample2.Example02 -->
+      <class name="day11.testngExample2.Example4">
+        <test-method signature="testLoginOrangeHrm()[pri:1, instance:day11.testngExample2.Example4@2e55dd0c]" started-at="2025-04-29T07:39:19 IST" name="testLoginOrangeHrm" finished-at="2025-04-29T07:39:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginOrangeHrm -->
+        <test-method signature="testPIMCreationOrangeHrm()[pri:2, instance:day11.testngExample2.Example4@2e55dd0c]" started-at="2025-04-29T07:39:19 IST" name="testPIMCreationOrangeHrm" finished-at="2025-04-29T07:39:19 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at day11.testngExample2.Example4.testPIMCreationOrangeHrm(Example4.java:13)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPIMCreationOrangeHrm -->
+        <test-method signature="testPIMDeleteOrangeHrm()[pri:4, instance:day11.testngExample2.Example4@2e55dd0c]" started-at="2025-04-29T07:39:19 IST" name="testPIMDeleteOrangeHrm" finished-at="2025-04-29T07:39:19 IST" depends-on-methods="day11.testngExample2.Example4.testPIMCreationOrangeHrm" duration-ms="1" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method day11.testngExample2.Example4.testPIMDeleteOrangeHrm() on instance day11.testngExample2.Example4@2e55dd0c depends on not successfully finished methods 
+[day11.testngExample2.Example4.testPIMCreationOrangeHrm() on instance day11.testngExample2.Example4@2e55dd0c]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method day11.testngExample2.Example4.testPIMDeleteOrangeHrm() on instance day11.testngExample2.Example4@2e55dd0c depends on not successfully finished methods 
+[day11.testngExample2.Example4.testPIMCreationOrangeHrm() on instance day11.testngExample2.Example4@2e55dd0c]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPIMDeleteOrangeHrm -->
+        <test-method signature="testLogoutOrangeHrm()[pri:5, instance:day11.testngExample2.Example4@2e55dd0c]" started-at="2025-04-29T07:39:19 IST" name="testLogoutOrangeHrm" finished-at="2025-04-29T07:39:19 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutOrangeHrm -->
+      </class> <!-- day11.testngExample2.Example4 -->
+      <class name="day11.testngExample2.Example1">
+        <test-method signature="TC1()[pri:0, instance:day11.testngExample2.Example1@48974e45]" started-at="2025-04-29T07:39:48 IST" name="TC1" finished-at="2025-04-29T07:39:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+      </class> <!-- day11.testngExample2.Example1 -->
+      <class name="day11.testngExample2.Example2">
+        <test-method signature="TC1()[pri:0, instance:day11.testngExample2.Example2@6a84a97d]" started-at="2025-04-29T07:39:48 IST" name="TC1" finished-at="2025-04-29T07:39:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method signature="TC2()[pri:0, instance:day11.testngExample2.Example2@6a84a97d]" started-at="2025-04-29T07:39:48 IST" name="TC2" finished-at="2025-04-29T07:39:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2 -->
+        <test-method signature="TC3()[pri:0, instance:day11.testngExample2.Example2@6a84a97d]" started-at="2025-04-29T07:39:48 IST" name="TC3" finished-at="2025-04-29T07:39:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3 -->
+      </class> <!-- day11.testngExample2.Example2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

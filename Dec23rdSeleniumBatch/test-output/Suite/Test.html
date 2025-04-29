@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>16/2/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/1/4</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Apr 20 15:31:51 IST 2025</td>
+<td>Started on:</td><td>Tue Apr 29 07:33:58 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>27 seconds (27676 ms)</td>
+<tr><td>Total time:</td><td>72 seconds (72828 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,21 +76,49 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='day11.testngExample2.Example4.testPIMCreationOrangeHrm()'><b>testPIMCreationOrangeHrm</b><br>Test class: day11.testngExample2.Example4</td>
-<td><div><pre>java.lang.ArithmeticException: / by zero
-	at day11.testngExample2.Example4.testPIMCreationOrangeHrm(Example4.java:13)
+<td title='orangeHrmTestScripts.TestPIM.testPIM_Creation()'><b>testPIM_Creation</b><br>Test class: orangeHrmTestScripts.TestPIM</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, getActiveElement {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53676}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53676/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.activeElement(RemoteWebDriver.java:1162)
+	at reusableComponent.SeleniumUtility.getActitveElement(SeleniumUtility.java:280)
+	at orangehrmwebpages.AddEmployeePage.createEmployee(AddEmployeePage.java:35)
+	at orangeHrmTestScripts.TestPIM.testPIM_Creation(TestPIM.java:48)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2103569237", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2103569237'><pre>java.lang.ArithmeticException: / by zero
-	at day11.testngExample2.Example4.testPIMCreationOrangeHrm(Example4.java:13)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace173070089", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace173070089'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, getActiveElement {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53676}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53676/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.activeElement(RemoteWebDriver.java:1162)
+	at reusableComponent.SeleniumUtility.getActitveElement(SeleniumUtility.java:280)
+	at orangehrmwebpages.AddEmployeePage.createEmployee(AddEmployeePage.java:35)
+	at orangeHrmTestScripts.TestPIM.testPIM_Creation(TestPIM.java:48)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
 	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
@@ -112,50 +140,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>0</td>
-<td>day11.testngExample2.Example4@3646a422</td></tr>
-<tr>
-<td title='day11.testngExample2.OrangeHrmTest.testLoginWithAssert1()'><b>testLoginWithAssert1</b><br>Test class: day11.testngExample2.OrangeHrmTest</td>
-<td><div><pre>java.lang.AssertionError: Either application url got changed or login failed expected [true] but found [false]
-	at day11.testngExample2.OrangeHrmTest.testLoginWithAssert1(OrangeHrmTest.java:34)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1031586763", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1031586763'><pre>java.lang.AssertionError: Either application url got changed or login failed expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at day11.testngExample2.OrangeHrmTest.testLoginWithAssert1(OrangeHrmTest.java:34)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>9</td>
-<td>day11.testngExample2.OrangeHrmTest@1ca3b418</td></tr>
+<td>3</td>
+<td>orangeHrmTestScripts.TestPIM@8f2ef19</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -166,119 +152,30 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='day11.testngExample2.Example1.TC1()'><b>TC1</b><br>Test class: day11.testngExample2.Example1</td>
+<td title='orangeHrmTestScripts.TestOrangeHrmPIM.testPimDelete()'><b>testPimDelete</b><br>Test class: orangeHrmTestScripts.TestOrangeHrmPIM</td>
 <td></td>
 <td>0</td>
-<td>day11.testngExample2.Example1@58cbafc2</td></tr>
+<td>orangeHrmTestScripts.TestOrangeHrmPIM@470734c3</td></tr>
 <tr>
-<td title='day11.testngExample2.Example2.TC2()'><b>TC2</b><br>Test class: day11.testngExample2.Example2</td>
+<td title='orangeHrmTestScripts.OrangeHrmLoginLogout.testLoginLougoutOfOrangeHrm()'><b>testLoginLougoutOfOrangeHrm</b><br>Test class: orangeHrmTestScripts.OrangeHrmLoginLogout</td>
+<td></td>
+<td>5</td>
+<td>orangeHrmTestScripts.OrangeHrmLoginLogout@7b36aa0c</td></tr>
+<tr>
+<td title='orangeHrmTestScripts.TestOrangeHrmPIM.testPimUpdate()'><b>testPimUpdate</b><br>Test class: orangeHrmTestScripts.TestOrangeHrmPIM</td>
 <td></td>
 <td>0</td>
-<td>day11.testngExample2.Example2@2034b64c</td></tr>
+<td>orangeHrmTestScripts.TestOrangeHrmPIM@470734c3</td></tr>
 <tr>
-<td title='day11.testngExample2.Example3.testPIMDeleteOrangeHrm()'><b>testPIMDeleteOrangeHrm</b><br>Test class: day11.testngExample2.Example3</td>
+<td title='orangeHrmTestScripts.OrangeHrmLoginLogout.testLoginPage()'><b>testLoginPage</b><br>Test class: orangeHrmTestScripts.OrangeHrmLoginLogout</td>
+<td></td>
+<td>2</td>
+<td>orangeHrmTestScripts.OrangeHrmLoginLogout@7b36aa0c</td></tr>
+<tr>
+<td title='orangeHrmTestScripts.TestOrangeHrmPIM.testPimCreation()'><b>testPimCreation</b><br>Test class: orangeHrmTestScripts.TestOrangeHrmPIM</td>
 <td></td>
 <td>0</td>
-<td>day11.testngExample2.Example3@f09733f</td></tr>
-<tr>
-<td title='day11.testngExample2.Example5.testActitime()'><b>testActitime</b><br>Test class: day11.testngExample2.Example5</td>
-<td></td>
-<td>0</td>
-<td>day11.testngExample2.Example5@54422e18</td></tr>
-<tr>
-<td title='day11.testngExample2.Example3.testLoginOrangeHrm()'><b>testLoginOrangeHrm</b><br>Test class: day11.testngExample2.Example3<br>Test method: Used already have valid test data for login</td>
-<td></td>
-<td>1</td>
-<td>day11.testngExample2.Example3@f09733f</td></tr>
-<tr>
-<td title='day11.testngExample2.Example3.testLogoutOrangeHrm()'><b>testLogoutOrangeHrm</b><br>Test class: day11.testngExample2.Example3</td>
-<td></td>
-<td>0</td>
-<td>day11.testngExample2.Example3@f09733f</td></tr>
-<tr>
-<td title='day11.testngExample2.Example02.TC2()'><b>TC2</b><br>Test class: day11.testngExample2.Example02</td>
-<td></td>
-<td>0</td>
-<td>day11.testngExample2.Example02@750e2b97</td></tr>
-<tr>
-<td title='day11.testngExample2.Example4.testLoginOrangeHrm()'><b>testLoginOrangeHrm</b><br>Test class: day11.testngExample2.Example4</td>
-<td></td>
-<td>0</td>
-<td>day11.testngExample2.Example4@3646a422</td></tr>
-<tr>
-<td title='day11.testngExample2.Example2.TC1()'><b>TC1</b><br>Test class: day11.testngExample2.Example2</td>
-<td></td>
-<td>0</td>
-<td>day11.testngExample2.Example2@2034b64c</td></tr>
-<tr>
-<td title='day11.testngExample2.OrangeHrmTest.testLoginWithAssert2()'><b>testLoginWithAssert2</b><br>Test class: day11.testngExample2.OrangeHrmTest</td>
-<td></td>
-<td>9</td>
-<td>day11.testngExample2.OrangeHrmTest@1ca3b418</td></tr>
-<tr>
-<td title='day11.testngExample2.OrangeHrmTest.testLoginWithAssert3()'><b>testLoginWithAssert3</b><br>Test class: day11.testngExample2.OrangeHrmTest</td>
-<td></td>
-<td>7</td>
-<td>day11.testngExample2.OrangeHrmTest@1ca3b418</td></tr>
-<tr>
-<td title='day11.testngExample2.Example2.TC3()'><b>TC3</b><br>Test class: day11.testngExample2.Example2</td>
-<td></td>
-<td>0</td>
-<td>day11.testngExample2.Example2@2034b64c</td></tr>
-<tr>
-<td title='day11.testngExample2.Example02.TC3()'><b>TC3</b><br>Test class: day11.testngExample2.Example02</td>
-<td></td>
-<td>0</td>
-<td>day11.testngExample2.Example02@750e2b97</td></tr>
-<tr>
-<td title='day11.testngExample2.Example3.testPIMUpdateOrangeHrm()'><b>testPIMUpdateOrangeHrm</b><br>Test class: day11.testngExample2.Example3</td>
-<td><div><pre>java.lang.ArithmeticException: / by zero
-	at day11.testngExample2.Example3.testPIMUpdateOrangeHrm(Example3.java:19)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1991278377", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1991278377'><pre>java.lang.ArithmeticException: / by zero
-	at day11.testngExample2.Example3.testPIMUpdateOrangeHrm(Example3.java:19)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>day11.testngExample2.Example3@f09733f</td></tr>
-<tr>
-<td title='day11.testngExample2.Example5.testOrangeHrm()'><b>testOrangeHrm</b><br>Test class: day11.testngExample2.Example5</td>
-<td></td>
-<td>0</td>
-<td>day11.testngExample2.Example5@54422e18</td></tr>
-<tr>
-<td title='day11.testngExample2.Example4.testLogoutOrangeHrm()'><b>testLogoutOrangeHrm</b><br>Test class: day11.testngExample2.Example4</td>
-<td></td>
-<td>0</td>
-<td>day11.testngExample2.Example4@3646a422</td></tr>
+<td>orangeHrmTestScripts.TestOrangeHrmPIM@470734c3</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -289,13 +186,13 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='day11.testngExample2.Example4.testPIMDeleteOrangeHrm()'><b>testPIMDeleteOrangeHrm</b><br>Test class: day11.testngExample2.Example4</td>
-<td><div><pre>java.lang.Throwable: Method day11.testngExample2.Example4.testPIMDeleteOrangeHrm() on instance day11.testngExample2.Example4@3646a422 depends on not successfully finished methods 
-[day11.testngExample2.Example4.testPIMCreationOrangeHrm() on instance day11.testngExample2.Example4@3646a422]
+<td title='orangeHrmTestScripts.TestPIM.testPIM_Update()'><b>testPIM_Update</b><br>Test class: orangeHrmTestScripts.TestPIM</td>
+<td><div><pre>java.lang.Throwable: Method orangeHrmTestScripts.TestPIM.testPIM_Update() on instance orangeHrmTestScripts.TestPIM@8f2ef19 depends on not successfully finished methods 
+[orangeHrmTestScripts.TestPIM.testPIM_Creation() on instance orangeHrmTestScripts.TestPIM@8f2ef19]
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1670313965", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1670313965'><pre>java.lang.Throwable: Method day11.testngExample2.Example4.testPIMDeleteOrangeHrm() on instance day11.testngExample2.Example4@3646a422 depends on not successfully finished methods 
-[day11.testngExample2.Example4.testPIMCreationOrangeHrm() on instance day11.testngExample2.Example4@3646a422]
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace502386384", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace502386384'><pre>java.lang.Throwable: Method orangeHrmTestScripts.TestPIM.testPIM_Update() on instance orangeHrmTestScripts.TestPIM@8f2ef19 depends on not successfully finished methods 
+[orangeHrmTestScripts.TestPIM.testPIM_Creation() on instance orangeHrmTestScripts.TestPIM@8f2ef19]
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -317,7 +214,171 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>day11.testngExample2.Example4@3646a422</td></tr>
+<td>orangeHrmTestScripts.TestPIM@8f2ef19</td></tr>
+<tr>
+<td title='orangeHrmTestScripts.TestPIM.testPIM_Creation()'><b>testPIM_Creation</b><br>Test class: orangeHrmTestScripts.TestPIM</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, getActiveElement {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53676}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53676/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.activeElement(RemoteWebDriver.java:1162)
+	at reusableComponent.SeleniumUtility.getActitveElement(SeleniumUtility.java:280)
+	at orangehrmwebpages.AddEmployeePage.createEmployee(AddEmployeePage.java:35)
+	at orangeHrmTestScripts.TestPIM.testPIM_Creation(TestPIM.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace445010547", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace445010547'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, getActiveElement {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53676}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53676/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.activeElement(RemoteWebDriver.java:1162)
+	at reusableComponent.SeleniumUtility.getActitveElement(SeleniumUtility.java:280)
+	at orangehrmwebpages.AddEmployeePage.createEmployee(AddEmployeePage.java:35)
+	at orangeHrmTestScripts.TestPIM.testPIM_Creation(TestPIM.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>3</td>
+<td>orangeHrmTestScripts.TestPIM@8f2ef19</td></tr>
+<tr>
+<td title='orangeHrmTestScripts.TestPIM.testPIM_Delete()'><b>testPIM_Delete</b><br>Test class: orangeHrmTestScripts.TestPIM</td>
+<td><div><pre>java.lang.Throwable: Method orangeHrmTestScripts.TestPIM.testPIM_Delete() on instance orangeHrmTestScripts.TestPIM@8f2ef19 depends on not successfully finished methods 
+[orangeHrmTestScripts.TestPIM.testPIM_Creation() on instance orangeHrmTestScripts.TestPIM@8f2ef19]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace850429804", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace850429804'><pre>java.lang.Throwable: Method orangeHrmTestScripts.TestPIM.testPIM_Delete() on instance orangeHrmTestScripts.TestPIM@8f2ef19 depends on not successfully finished methods 
+[orangeHrmTestScripts.TestPIM.testPIM_Creation() on instance orangeHrmTestScripts.TestPIM@8f2ef19]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>orangeHrmTestScripts.TestPIM@8f2ef19</td></tr>
+<tr>
+<td title='orangeHrmTestScripts.TestPIM.testPIM_Creation()'><b>testPIM_Creation</b><br>Test class: orangeHrmTestScripts.TestPIM</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, getActiveElement {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53676}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53676/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.activeElement(RemoteWebDriver.java:1162)
+	at reusableComponent.SeleniumUtility.getActitveElement(SeleniumUtility.java:280)
+	at orangehrmwebpages.AddEmployeePage.createEmployee(AddEmployeePage.java:35)
+	at orangeHrmTestScripts.TestPIM.testPIM_Creation(TestPIM.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace33558975", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace33558975'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, getActiveElement {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53676}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53676/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.activeElement(RemoteWebDriver.java:1162)
+	at reusableComponent.SeleniumUtility.getActitveElement(SeleniumUtility.java:280)
+	at orangehrmwebpages.AddEmployeePage.createEmployee(AddEmployeePage.java:35)
+	at orangeHrmTestScripts.TestPIM.testPIM_Creation(TestPIM.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>4</td>
+<td>orangeHrmTestScripts.TestPIM@8f2ef19</td></tr>
 </table><p>
 </body>
 </html>
