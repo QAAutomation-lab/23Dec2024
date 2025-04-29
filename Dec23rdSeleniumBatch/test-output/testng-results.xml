@@ -1,37 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-27T08:30:33 IST" name="Default suite" finished-at="2025-04-27T08:30:52 IST" duration-ms="18502">
+  <suite started-at="2025-04-29T07:13:33 IST" name="Default suite" finished-at="2025-04-29T07:14:28 IST" duration-ms="54694">
     <groups>
     </groups>
-    <test started-at="2025-04-27T08:30:33 IST" name="Default test" finished-at="2025-04-27T08:30:52 IST" duration-ms="18502">
-      <class name="orangeHrmTestScripts.OrangeHrmLoginLogout">
-        <test-method is-config="true" signature="precondition()[pri:0, instance:orangeHrmTestScripts.OrangeHrmLoginLogout@121314f7]" started-at="2025-04-27T08:30:33 IST" name="precondition" finished-at="2025-04-27T08:30:40 IST" duration-ms="6987" status="PASS">
+    <test started-at="2025-04-29T07:13:33 IST" name="Default test" finished-at="2025-04-29T07:14:28 IST" duration-ms="54694">
+      <class name="orangeHrmTestScripts.TestPIM">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:orangeHrmTestScripts.TestPIM@7526515b]" started-at="2025-04-29T07:13:34 IST" name="openBrowser" finished-at="2025-04-29T07:13:44 IST" duration-ms="10159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:orangeHrmTestScripts.TestPIM@7526515b]" started-at="2025-04-29T07:13:44 IST" name="precondition" finished-at="2025-04-29T07:13:48 IST" duration-ms="4026" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="testLoginPage()[pri:1, instance:orangeHrmTestScripts.OrangeHrmLoginLogout@121314f7]" started-at="2025-04-27T08:30:40 IST" name="testLoginPage" finished-at="2025-04-27T08:30:40 IST" duration-ms="46" status="PASS">
+        <test-method signature="testPIM_Creation()[pri:1, instance:orangeHrmTestScripts.TestPIM@7526515b]" started-at="2025-04-29T07:13:48 IST" name="testPIM_Creation" finished-at="2025-04-29T07:14:04 IST" duration-ms="16314" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLoginPage -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:orangeHrmTestScripts.OrangeHrmLoginLogout@121314f7]" started-at="2025-04-27T08:30:40 IST" name="postCondition" finished-at="2025-04-27T08:30:41 IST" duration-ms="265" status="PASS">
+        </test-method> <!-- testPIM_Creation -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:orangeHrmTestScripts.TestPIM@7526515b]" started-at="2025-04-29T07:14:04 IST" name="postcondition" finished-at="2025-04-29T07:14:06 IST" duration-ms="1592" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postCondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:orangeHrmTestScripts.OrangeHrmLoginLogout@121314f7]" started-at="2025-04-27T08:30:41 IST" name="precondition" finished-at="2025-04-27T08:30:47 IST" duration-ms="5922" status="PASS">
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:orangeHrmTestScripts.TestPIM@7526515b]" started-at="2025-04-29T07:14:06 IST" name="precondition" finished-at="2025-04-29T07:14:09 IST" duration-ms="3361" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="testLoginLougoutOfOrangeHrm()[pri:2, instance:orangeHrmTestScripts.OrangeHrmLoginLogout@121314f7]" started-at="2025-04-27T08:30:47 IST" name="testLoginLougoutOfOrangeHrm" finished-at="2025-04-27T08:30:51 IST" duration-ms="4831" status="PASS">
+        <test-method signature="testPIM_Update()[pri:2, instance:orangeHrmTestScripts.TestPIM@7526515b]" started-at="2025-04-29T07:14:09 IST" name="testPIM_Update" finished-at="2025-04-29T07:14:09 IST" depends-on-methods="orangeHrmTestScripts.TestPIM.testPIM_Creation" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLoginLougoutOfOrangeHrm -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:orangeHrmTestScripts.OrangeHrmLoginLogout@121314f7]" started-at="2025-04-27T08:30:52 IST" name="postCondition" finished-at="2025-04-27T08:30:52 IST" duration-ms="360" status="PASS">
+        </test-method> <!-- testPIM_Update -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:orangeHrmTestScripts.TestPIM@7526515b]" started-at="2025-04-29T07:14:09 IST" name="postcondition" finished-at="2025-04-29T07:14:11 IST" duration-ms="1657" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postCondition -->
-      </class> <!-- orangeHrmTestScripts.OrangeHrmLoginLogout -->
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:orangeHrmTestScripts.TestPIM@7526515b]" started-at="2025-04-29T07:14:11 IST" name="precondition" finished-at="2025-04-29T07:14:14 IST" duration-ms="3154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="testPIM_Delete()[pri:3, instance:orangeHrmTestScripts.TestPIM@7526515b]" started-at="2025-04-29T07:14:14 IST" name="testPIM_Delete" finished-at="2025-04-29T07:14:26 IST" depends-on-methods="orangeHrmTestScripts.TestPIM.testPIM_Creation" duration-ms="12524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPIM_Delete -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:orangeHrmTestScripts.TestPIM@7526515b]" started-at="2025-04-29T07:14:26 IST" name="postcondition" finished-at="2025-04-29T07:14:28 IST" duration-ms="1269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:orangeHrmTestScripts.TestPIM@7526515b]" started-at="2025-04-29T07:14:28 IST" name="closeBrowser" finished-at="2025-04-29T07:14:28 IST" duration-ms="512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- orangeHrmTestScripts.TestPIM -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

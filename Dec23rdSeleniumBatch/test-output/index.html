@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Asus\AppData\Local\Temp\testng-eclipse--143702114\testng-customsuite.xml</span>
+                    <span>C:\Users\Asus\AppData\Local\Temp\testng-eclipse-558136866\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,12 +103,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="orangeHrmTestScripts.OrangeHrmLoginLogout" class="method navigator-link" hash-for-method="testLoginLougoutOfOrangeHrm">testLoginLougoutOfOrangeHrm</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="orangeHrmTestScripts.TestPIM" class="method navigator-link" hash-for-method="testPIM_Creation">testPIM_Creation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="orangeHrmTestScripts.OrangeHrmLoginLogout" class="method navigator-link" hash-for-method="testLoginPage">testLoginPage</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="orangeHrmTestScripts.TestPIM" class="method navigator-link" hash-for-method="testPIM_Delete">testPIM_Delete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="orangeHrmTestScripts.TestPIM" class="method navigator-link" hash-for-method="testPIM_Update">testPIM_Update</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -126,21 +131,28 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">orangeHrmTestScripts.OrangeHrmLoginLogout</span>
+              <span class="class-name">orangeHrmTestScripts.TestPIM</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testLoginLougoutOfOrangeHrm">
-                  </a> <!-- testLoginLougoutOfOrangeHrm -->
-                  <span class="method-name">testLoginLougoutOfOrangeHrm</span>
+                  <a name="testPIM_Creation">
+                  </a> <!-- testPIM_Creation -->
+                  <span class="method-name">testPIM_Creation</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testLoginPage">
-                  </a> <!-- testLoginPage -->
-                  <span class="method-name">testLoginPage</span>
+                  <a name="testPIM_Delete">
+                  </a> <!-- testPIM_Delete -->
+                  <span class="method-name">testPIM_Delete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPIM_Update">
+                  </a> <!-- testPIM_Update -->
+                  <span class="method-name">testPIM_Update</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -148,7 +160,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Asus\AppData\Local\Temp\testng-eclipse--143702114\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Asus\AppData\Local\Temp\testng-eclipse-558136866\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -157,7 +169,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;orangeHrmTestScripts.OrangeHrmLoginLogout&quot;/&gt;
+      &lt;class name=&quot;orangeHrmTestScripts.TestPIM&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -197,20 +209,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testLoginLougoutOfOrangeHrm')
-data.setCell(0, 2, 'orangeHrmTestScripts.OrangeHrmLoginLogout')
-data.setCell(0, 3, 4831);
+data.setCell(0, 1, 'testPIM_Creation')
+data.setCell(0, 2, 'orangeHrmTestScripts.TestPIM')
+data.setCell(0, 3, 16314);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testLoginPage')
-data.setCell(1, 2, 'orangeHrmTestScripts.OrangeHrmLoginLogout')
-data.setCell(1, 3, 46);
+data.setCell(1, 1, 'testPIM_Delete')
+data.setCell(1, 2, 'orangeHrmTestScripts.TestPIM')
+data.setCell(1, 3, 12524);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testPIM_Update')
+data.setCell(2, 2, 'orangeHrmTestScripts.TestPIM')
+data.setCell(2, 3, 2);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 28 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -236,31 +252,51 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">orangeHrmTestScripts.OrangeHrmLoginLogout</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">precondition</span>
+              <div class="chronological-class-name">orangeHrmTestScripts.TestPIM</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">openBrowser</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">precondition</span>
+                <span class="method-start">10233 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testLoginPage</span>
-                <span class="method-start">6989 ms</span>
+                <span class="method-name">testPIM_Creation</span>
+                <span class="method-start">14260 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">postCondition</span>
-                <span class="method-start">7042 ms</span>
+                <span class="method-name">postcondition</span>
+                <span class="method-start">30578 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">7311 ms</span>
+                <span class="method-start">32173 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testLoginLougoutOfOrangeHrm</span>
-                <span class="method-start">13233 ms</span>
+                <span class="method-name">testPIM_Update</span>
+                <span class="method-start">35535 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">postCondition</span>
-                <span class="method-start">18066 ms</span>
+                <span class="method-name">postcondition</span>
+                <span class="method-start">35544 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">precondition</span>
+                <span class="method-start">37204 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPIM_Delete</span>
+                <span class="method-start">40358 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">postcondition</span>
+                <span class="method-start">52884 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">54155 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -1,5 +1,7 @@
 package orangehrmwebpages;
 
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -18,8 +20,12 @@ public class PersonalDetailsPage extends SeleniumUtility {
 	private WebElement jobTab;
 	
 	//Job Title Dropdown
+	@FindBy(xpath="//div[contains(@class,'oxd-select-text--focus')]")
+	private WebElement jobDropdown;
 	
 	//Job Title Dropdown Elements
+	@FindBy(xpath="//div[contains(@class,'oxd-select-text--focus')]/following-sibling::div/div/span")
+	private List<WebElement> jobOptionList;
 	
 	//Save Button
 	
