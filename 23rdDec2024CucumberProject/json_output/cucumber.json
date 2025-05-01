@@ -1,0 +1,252 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-01-12T03:41:54.374Z",
+        "line": 3,
+        "name": "Validate suggestion count in google search",
+        "description": "",
+        "id": "testing-google-search-functionality;validate-suggestion-count-in-google-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5105942000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Browser is already opened with valid url",
+            "match": {
+              "location": "stepdef.GoogleSearchDef.browser_is_already_opened_with_valid_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 269733200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user types \"Selenium\" in search input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Selenium\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdef.GoogleSearchDef.user_types_in_search_input_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 182564900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should get \"10\" suggestions",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdef.GoogleSearchDef.user_should_get_suggestions(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-01-12T03:42:00.061Z",
+        "line": 8,
+        "name": "Validate suggestion selection in google",
+        "description": "",
+        "id": "testing-google-search-functionality;validate-suggestion-selection-in-google",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 514313600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user selects \"selenium interview questions\" from suggestion",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"selenium interview questions\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdef.GoogleSearchDef.user_selects_from_suggestion(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1676755400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should be able to see \"selenium interview questions\" in search input field of next page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"selenium interview questions\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdef.GoogleSearchDef.user_should_be_able_to_see_in_search_input_field_of_next_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 348079400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "close the browser",
+            "match": {
+              "location": "stepdef.GoogleSearchDef.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Testing Google search functionality",
+    "description": "",
+    "id": "testing-google-search-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/GoogleSearch.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-01-12T03:42:02.673Z",
+        "line": 3,
+        "name": "Validate Login with valid test data in OrangeHRM",
+        "description": "",
+        "id": "test-feature-file-is-created-to-validate-login-functionality-of-orangehrm;validate-login-with-valid-test-data-in-orangehrm",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2137137100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Browser is already opened",
+            "match": {
+              "location": "stepdef.OrangeHRMLogin.browser_is_already_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3167055600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters application url for OrangeHRM",
+            "match": {
+              "location": "stepdef.OrangeHRMLogin.user_enters_application_url_for_orange_hrm()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 551725400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters valid user name in OrangeHRM",
+            "match": {
+              "location": "stepdef.OrangeHRMLogin.user_enters_valid_user_name_in_orange_hrm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144613100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters valid password in OrangeHRM",
+            "match": {
+              "location": "stepdef.OrangeHRMLogin.user_enters_valid_password_in_orange_hrm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1285716700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on login button  in OrangeHRM",
+            "match": {
+              "location": "stepdef.OrangeHRMLogin.user_clicks_on_login_button_in_orange_hrm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12964600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should navigate to home page for OrangeHRM",
+            "match": {
+              "location": "stepdef.OrangeHRMLogin.user_should_navigate_to_home_page_for_orange_hrm()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 997400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "close the browser",
+            "match": {
+              "location": "stepdef.GoogleSearchDef.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Test Feature file is created to validate login functionality of OrangeHRM",
+    "description": "",
+    "id": "test-feature-file-is-created-to-validate-login-functionality-of-orangehrm",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/OrangeHRMLogin.feature",
+    "tags": []
+  }
+]

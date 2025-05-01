@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="16.838">
+    <testcase classname="Testing Google search functionality" name="Validate suggestion count in google search" time="5.608">
+        <system-out><![CDATA[Given Browser is already opened with valid url..............................passed
+When user types "Selenium" in search input field............................passed
+Then user should get "10" suggestions.......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Testing Google search functionality" name="Validate suggestion selection in google" time="2.545">
+        <system-out><![CDATA[When user selects "selenium interview questions" from suggestion............passed
+Then user should be able to see "selenium interview questions" in search input field of next page.passed
+And close the browser.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Feature file is created to validate login functionality of OrangeHRM" name="Validate Login with valid test data in OrangeHRM" time="7.331">
+        <system-out><![CDATA[Given Browser is already opened.............................................passed
+When user enters application url for OrangeHRM..............................passed
+And user enters valid user name in OrangeHRM................................passed
+And user enters valid password in OrangeHRM.................................passed
+And user clicks on login button  in OrangeHRM...............................passed
+Then user should navigate to home page for OrangeHRM........................passed
+And close the browser.......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,13 @@
+webpages_vtiger\VtigerLoginPage.class
+stepdef\GoogleSearchDef.class
+webpages_orangehrm\PimHomePage.class
+webpages_orangehrm\HomePage.class
+stepdef\OrangeHrmPIM_Step.class
+webpages_orangehrm\PersonalDetailsPage.class
+webpages_orangehrm\LoginPage.class
+webpages_orangehrm\AddEmployeePage.class
+webpages_vtiger\VtigerLeadsPage.class
+runner\TestRunner.class
+stepdef\OrangeHRMLogin.class
+webpages_vtiger\VtigerHomePage.class
+stepdef\VtigerLeadStepDef.class
